@@ -26,7 +26,6 @@ def pregunta_01():
         decimal='.',
     )
 
-
     # Asigne la columna `charges` a la variable `y`.
     y = df.charges
 
@@ -34,7 +33,7 @@ def pregunta_01():
     X = df.copy()
 
     # Remueva la columna `charges` del DataFrame `X`.
-    X.drop('charges', axis = 1)
+    X.pop('charges')
 
     # Retorne `X` y `y`
     return X, y
