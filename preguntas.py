@@ -10,6 +10,7 @@ selección de las n variables más relevantes usando una prueba f.
 # pylint: disable=unsubscriptable-object
 
 import pandas as pd
+import numpy as np
 
 
 def pregunta_01():    
